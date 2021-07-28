@@ -62,5 +62,6 @@ export const LoginButton = styled.button`
 
     &:hover, &:focus{
         background-position: center right;
+        cursor: pointer;
     }
 `;
