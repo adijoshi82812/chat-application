@@ -1,9 +1,10 @@
 import React from "react";
+import { MainContainer } from "./AppStyled";
 
 export default function App(){
   return(
-    <div>
+    <MainContainer>
       Hello World
-    </div>
+    </MainContainer>
   );
 }
