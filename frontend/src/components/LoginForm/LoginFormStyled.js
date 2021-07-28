@@ -1,4 +1,12 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const fadeIn = keyframes`
+    0%{ opacity: 0 }
+    25%{ opacity: 0.25 }
+    50%{ opacity: 0.50 }
+    75%{ opacity: 0.75 }
+    100%{ opacity: 1 }
+`;
 
 export const Container = styled.div`
     height: 100vh;
@@ -11,6 +19,9 @@ export const LoginFormConatiner = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 400px;
     width: 90%;
+    border-radius: 10px;
+    animation-name: ${fadeIn};
+    animation-duration: 0.4s;
 `;
 
 export const Heading = styled.h1`
@@ -24,7 +35,7 @@ export const Input = styled.input`
     border: 1px solid rgba(0, 0, 0, 0.3);
     outline: none;
     padding: 8px 16px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     transition: border 0.4s ease-in;
 
