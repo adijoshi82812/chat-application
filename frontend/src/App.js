@@ -1,10 +1,12 @@
 import React from "react";
 import { MainContainer } from "./AppStyled";
 
-export default function App(){
-  return(
+import LoginForm from "./components/LoginForm/LoginForm";
+
+export default function App() {
+  return (
     <MainContainer>
-      Hello World
+      <LoginForm />
     </MainContainer>
   );
 }
