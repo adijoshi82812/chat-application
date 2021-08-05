@@ -22,6 +22,12 @@ To deploy the app, refer the deployement section in the docs.
 **Backend :** ChatEngine API
 ## Deployment
 
+Clone the project
+
+```bash
+  git clone https://github.com/adijoshi82812/chat-application.git
+```
+
 To deploy this project run
 
 ```bash
